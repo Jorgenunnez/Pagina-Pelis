@@ -2,8 +2,8 @@ import estilos from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <navbar>
-      <div>
+    <navbar className={estilos.navbar}>
+      <div className={estilos.container}>
         <img src="" alt="Logo" />
         <div>
           <ul>
