@@ -2,14 +2,13 @@ import estilos from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <navbar className={estilos.navbar}>
-      <div className={estilos.container}>
-        <img src="" alt="Logo" />
-        <div>
+    <div className={estilos.container}>
+      <div className={estilos.headerleft}>
+        <img src="" alt="Logo" className={estilos.logo} />
+      </div>
+      <div className={estilos.headermid}>
+        <nav>
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
             <li>
               <a href="#">Peliculas</a>
             </li>
@@ -17,13 +16,15 @@ function Navbar() {
               <a href="#">Series</a>
             </li>
           </ul>
-          <form role="search">
-            <input type="search" placeholder="Buscar" aria-label="search" />
-            <button>Buscar</button>
-          </form>
-        </div>
+        </nav>
       </div>
-    </navbar>
+      <div className={estilos.headeright}>
+        <form role="search">
+          <input type="search" placeholder="Buscar" aria-label="search" />
+          <button>Buscar</button>
+        </form>
+      </div>
+    </div>
   );
 }
 
