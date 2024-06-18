@@ -1,0 +1,17 @@
+.container {
+  img {
+    width: 80px;
+  }
+  padding: 0.4rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+  }
+}
