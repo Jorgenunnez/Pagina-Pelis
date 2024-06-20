@@ -1,10 +1,16 @@
 import estilos from "./Navbar.module.css";
+import logo from "../../assets/logo.svg";
 
 function Navbar() {
   return (
     <>
       <navcontainer className={estilos.container}>
-        <img src="" alt="Logo" className={estilos.logo} />
+        <div className={estilos.logo}>
+          <img src={logo} alt="Logo" className={estilos.logo} />
+          <h2>
+            Fua<span>Movies</span>
+          </h2>
+        </div>
         <div>
           <a href="">Peliculas</a>
           <a href="">Series</a>
