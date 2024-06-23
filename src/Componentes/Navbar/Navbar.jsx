@@ -1,5 +1,6 @@
 import estilos from "./Navbar.module.css";
 import logo from "../../assets/logo.svg";
+import BurgerButton from "./Burgerbutton/BurgerButton";
 
 function Navbar() {
   return (
@@ -21,6 +22,7 @@ function Navbar() {
             <button type="submit">buscar</button>
           </form>
         </div>
+        <BurgerButton />
       </navcontainer>
     </>
   );
