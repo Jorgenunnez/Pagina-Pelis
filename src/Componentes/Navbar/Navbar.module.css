@@ -30,3 +30,9 @@
     width: 60px;
   }
 }
+
+.burger{
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

@@ -22,7 +22,9 @@ function Navbar() {
             <button type="submit">buscar</button>
           </form>
         </div>
-        <BurgerButton />
+        <div className={estilos.burger}>
+          <BurgerButton />
+        </div>
       </navcontainer>
     </>
   );
