@@ -12,11 +12,11 @@ function Navbar() {
             Fua<span>Movies</span>
           </h2>
         </div>
-        <div className={estilos.links}>
+        <div className={estilos.links.active}>
           <a href="">Peliculas</a>
           <a href="">Series</a>
         </div>
-        <div className={estilos.links}>
+        <div className={estilos.links.active}>
           <form action="">
             <input type="search" placeholder="Buscar" aria-label="buscar" />
             <button type="submit">buscar</button>
