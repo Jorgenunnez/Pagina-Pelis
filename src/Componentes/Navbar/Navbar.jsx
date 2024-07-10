@@ -1,8 +1,10 @@
 import estilos from "./Navbar.module.css";
 import logo from "../../assets/logo.svg";
 import BurgerButton from "./Burgerbutton/BurgerButton";
+import React, { useState } from "react";
 
 function Navbar() {
+  const [clicked, setCliked] = useState(false);
   return (
     <>
       <navcontainer className={estilos.container}>
